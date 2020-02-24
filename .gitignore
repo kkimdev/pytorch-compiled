@@ -22,7 +22,7 @@
 */**/**/*.pyc
 */**/**/**/*.pyc
 */**/**/**/**/*.pyc
-aten/build/
+#aten/build/
 aten/src/ATen/Config.h
 aten/src/ATen/cuda/CUDAConfig.h
 caffe2/cpp_test/
@@ -49,11 +49,11 @@ torch.egg-info/
 torch/__init__.pyi
 torch/nn/functional.pyi
 torch/nn/modules/*.pyi
-torch/csrc/autograd/generated/*
+#torch/csrc/autograd/generated/*
 torch/csrc/cudnn/cuDNN.cpp
-torch/csrc/generated
+#torch/csrc/generated
 torch/csrc/generic/TensorMethods.cpp
-torch/csrc/jit/generated/*
+#torch/csrc/jit/generated/*
 torch/csrc/jit/fuser/config.h
 torch/csrc/nn/THCUNN.cpp
 torch/csrc/nn/THCUNN.cwrap
@@ -180,7 +180,7 @@ docs/source/scripts/activation_images/
 ## Caffe2
 
 # build, distribute, and bins (+ python proto bindings)
-build
+#build
 build_host_protoc
 build_android
 build_ios
